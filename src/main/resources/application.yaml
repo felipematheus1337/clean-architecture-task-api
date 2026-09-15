@@ -1,3 +1,9 @@
 spring:
   application:
-    name: v1
+    name: clean-architecture-task-api
+
+  mongodb:
+    uri: ${MONGODB_URI:mongodb://localhost:27017/taskdb}
+
+server:
+  port: 8080
